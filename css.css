@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: yellowgreen;
+}
+.główny {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.odn li{
+    height: 100vh;
+    list-style: none;
+}
+.odn ul {
+    overflow: hidden;
+    padding: 0;
+}
+.odn a {
+    width: 20vw;
+    height: 18%;
+    display: block;
+}
+
+.odn a:hover {
+    background-color:yellow;
+}
+.logo img{
+    width: 70vw;
+    height: 15vh;
+}
